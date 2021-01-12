@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    min-height: 700px;
+    background: url('../img/Frame8.jpg');
+    color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+.title {
+    margin-bottom: 30px;
+    color: rgb(223, 236, 98);
+    font-size: 20px;
+}
+li {
+    margin-bottom: 10px;
+    color: rgb(248, 245, 253);
+    font-size: 25px;
+}
+.btn_btn {
+    border-radius: 50%;
+    background: crimson;
+    color: cornsilk;
+    border:none;
+    margin-left: 7px;
+    font-size: 15px;
+}
+.btn_add {
+    border-radius: 12px;
+    background: rgb(23, 230, 133);
+    border:none;
+    color: rgb(5, 2, 36);
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.btn_clear {
+    border-radius: 12px;
+    background: rgb(224, 46, 70);
+    border: none;
+    color: rgb(5, 2, 36);
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.todo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(136, 80, 226);
+    font-size: 30px;
+}
